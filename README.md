@@ -1,35 +1,76 @@
-# Feedmob::Style
+# feedmob-style
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/feedmob/style`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Feedmob shared style configs.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'feedmob-style'
+group :test, :development do
+  gem "feedmob-style", github: "feedmob-style"
+end
+```
+
+Or, for a Ruby library, add this to your gemspec:
+
+```ruby
+spec.add_development_dependency "feedmob-style"
 ```
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install feedmob-style
+```bash
+$ bundle install
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+### RuboCop
+> https://github.com/rubocop-hq/rubocop
 
-## Development
+Create a `.rubocop.yml` with the following directives:
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+```yml
+inherit_gem:
+  feedmob-style:
+    - config/rubocop-default.yml
+```
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Now, run:
 
-## Contributing
+```
+$ bundle exec rubocop
+```
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/feedmob-style.
+### GoodCheck
+> https://github.com/sider/goodcheck
+
+Create a `goodcheck.yml` with the following directives:
+
+```yml
+import:
+  - config/goodcheck-default.yml
+```
+
+Now, run:
+
+```
+$ bundle exec goodcheck check
+```
+
+### Querly
+> https://github.com/soutaro/querly
+
+Create a `querly.yml` with the following directives:
+
+```yml
+import:
+  - load: config/querly-default.yml
+```
+
+Now, run:
+
+```
+$ bundle exec querly check .
+```
