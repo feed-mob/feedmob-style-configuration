@@ -2,6 +2,9 @@ PATH
   remote: .
   specs:
     feedmob-style (0.1.0)
+      goodcheck (~> 2.4, >= 2.4.1)
+      meowcop (~> 2.4)
+      querly (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -59,9 +62,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.0)
   feedmob-style!
-  goodcheck (~> 2.4, >= 2.4.1)
-  meowcop (~> 2.4)
-  querly (~> 1.0)
   rake (~> 10.0)
 
 BUNDLED WITH
