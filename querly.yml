@@ -1,2 +1,2 @@
 import:
-  - load: ./config/querly-default.yml
+  - require: ./lib/feedmob/style
