@@ -29,6 +29,12 @@ GEM
     parallel (1.18.0)
     parser (2.6.5.0)
       ast (~> 2.4.0)
+    querly (1.0.0)
+      activesupport (>= 5.0)
+      parallel (~> 1.17)
+      parser (>= 2.5.0)
+      rainbow (>= 2.1)
+      thor (>= 0.19.0, < 0.21.0)
     rainbow (3.0.0)
     rake (10.5.0)
     rubocop (0.75.1)
@@ -40,6 +46,7 @@ GEM
       unicode-display_width (>= 1.4.0, < 1.7)
     ruby-progressbar (1.10.1)
     strong_json (1.1.0)
+    thor (0.20.3)
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
@@ -54,6 +61,7 @@ DEPENDENCIES
   feedmob-style!
   goodcheck (~> 2.4, >= 2.4.1)
   meowcop (~> 2.4)
+  querly (~> 1.0)
   rake (~> 10.0)
 
 BUNDLED WITH
