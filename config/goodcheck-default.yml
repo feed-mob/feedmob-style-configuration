@@ -1,0 +1,8 @@
+- id: no_javascript_tags_on_the_html_page
+  pattern:
+    - token: <script
+      case_sensitive: false
+  glob:
+    - "**/*.html.erb"
+    - "**/.html"
+  message: Don't write script tags on the page directly.
