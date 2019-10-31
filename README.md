@@ -8,7 +8,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 group :development do
-  gem "feedmob-style", git: "https://8c864c042adce62397dd0037eb590db94917bbda:x-oauth-basic@github.com/feed-mob/feedmob-style-configuration", branch: "master"
+  gem "feedmob-style", github: "feed-mob/feedmob-style-configuration", branch: "master"
 end
 ```
 
@@ -36,14 +36,14 @@ linter:
     gems:
       - name: "feedmob-style"
         git:
-          repo: "https://8c864c042adce62397dd0037eb590db94917bbda:x-oauth-basic@github.com/feed-mob/feedmob-style-configuration"
+          repo: "https://github.com/feed-mob/feedmob-style-configuration"
           branch: "master"
 
   querly:
     gems:
       - name: "feedmob-style"
         git:
-          repo: "https://8c864c042adce62397dd0037eb590db94917bbda:x-oauth-basic@github.com/feed-mob/feedmob-style-configuration"
+          repo: "https://github.com/feed-mob/feedmob-style-configuration"
           branch: "master"
 ```
 
@@ -71,7 +71,7 @@ Create a `goodcheck.yml` with the following directives:
 
 ```yml
 import:
-  - https://raw.githubusercontent.com/feed-mob/feedmob-style-configuration/master/config/goodcheck-default.yml?token=ABZ7S56K2EZYZDT67B5UQUC5XEFQC
+  - https://raw.githubusercontent.com/feed-mob/feedmob-style-configuration/master/config/goodcheck-default.yml
 ```
 
 Now, run:
