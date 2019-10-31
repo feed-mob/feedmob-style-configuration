@@ -1,0 +1,3 @@
+- id: activerecord.update_all
+  pattern: _.update_all(...)
+  message: Avoid using `update_all` because it skips model validations

@@ -1,0 +1,2 @@
+import:
+  - ./config/goodcheck-default.yml

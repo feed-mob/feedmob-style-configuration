@@ -1,0 +1,47 @@
+# To use the MeowCop gem.
+inherit_gem:
+  meowcop:
+    - config/rubocop.yml
+
+Style/AndOr:
+  Enabled: true
+
+Style/UnlessElse:
+  Enabled: true
+
+Style/RedundantReturn:
+  Enabled: true
+
+Style/RedundantSelf:
+  Enabled: true
+
+Style/RedundantBegin:
+  Enabled: true
+
+Style/ModuleFunction:
+  Enabled: true
+
+Style/RescueModifier:
+  Enabled: true
+
+Style/EmptyLiteral:
+  Enabled: true
+
+Style/MutableConstant:
+  Enabled: true
+
+Layout/DotPosition:
+  Enabled: true
+  EnforcedStyle: leading
+
+Lint/EnsureReturn:
+  Enabled: true
+
+Lint/RescueException:
+  Enabled: true
+
+Naming/MethodName:
+  Enabled: true
+
+Naming/ConstantName:
+  Enabled: true
