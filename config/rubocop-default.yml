@@ -40,6 +40,9 @@ Lint/EnsureReturn:
 Lint/RescueException:
   Enabled: true
 
+Layout/LineLength:
+  Enabled: false
+
 Naming/MethodName:
   Enabled: true
 
