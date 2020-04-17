@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
 
   # MeowCop is a gem for RuboCop configuration, it focuses Lint
   # https://github.com/sider/meowcop
-  spec.add_dependency "meowcop", "~> 2.4"
+  spec.add_dependency "meowcop", "~> 2.9"
 
   # Regexp based customizable linter
   # https://github.com/sider/goodcheck
