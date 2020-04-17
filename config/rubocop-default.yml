@@ -52,6 +52,9 @@ Lint/RaiseException:
 Lint/StructNewOverride:
   Enabled: false
 
+Lint/DuplicateMethods:
+  Enabled: true
+
 Naming/MethodName:
   Enabled: true
 
