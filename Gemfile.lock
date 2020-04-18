@@ -5,6 +5,7 @@ PATH
       goodcheck (~> 2.4, >= 2.4.1)
       meowcop (~> 2.9)
       querly (~> 1.0)
+      rubocop (~> 0.82.0)
 
 GEM
   remote: https://rubygems.org/
