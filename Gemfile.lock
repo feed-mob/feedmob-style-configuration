@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    feedmob-style (0.1.0)
+    feedmob-style (0.1.1)
       goodcheck (~> 2.4, >= 2.4.1)
       meowcop (~> 2.9)
       querly (~> 1.0)
