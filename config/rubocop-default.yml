@@ -34,7 +34,7 @@ Layout/DotPosition:
   Enabled: true
   EnforcedStyle: leading
 
-Layout/LineLength:
+Metrics/LineLength:
   Enabled: false
 
 Layout/SpaceAroundMethodCallOperator:
