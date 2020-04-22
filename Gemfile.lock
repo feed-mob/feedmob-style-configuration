@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    feedmob-style (0.2.0)
-      goodcheck (~> 2.5.1)
+    feedmob-style (0.2.1)
+      goodcheck (~> 2.4.1)
       meowcop (~> 2.9.0)
       querly (~> 1.0.0)
       rubocop (~> 0.82.0)
@@ -18,11 +18,13 @@ GEM
       zeitwerk (~> 2.2)
     ast (2.4.0)
     concurrent-ruby (1.1.6)
-    goodcheck (2.5.1)
+    goodcheck (2.4.5)
       activesupport (>= 4.0, < 7.0)
+      httpclient (~> 2.8.3)
       psych (>= 3.1, < 4.0)
       rainbow (~> 3.0.0)
       strong_json (>= 1.1, < 2.2)
+    httpclient (2.8.3)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.4)
