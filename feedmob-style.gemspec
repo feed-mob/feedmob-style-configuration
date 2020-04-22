@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
 
   # Regexp based customizable linter
   # https://github.com/sider/goodcheck
-  spec.add_dependency "goodcheck", "~> 2.5.1"
+  spec.add_dependency "goodcheck", "2.4.1"
 
   # Querly is a query language and tool to find out method calls from Ruby programs
   # https://github.com/soutaro/querly
