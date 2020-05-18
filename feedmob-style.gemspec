@@ -39,5 +39,5 @@ Gem::Specification.new do |spec|
   # https://github.com/soutaro/querly
   spec.add_dependency "querly", "~> 1.0.0"
 
-  spec.add_dependency "rubocop", "~> 0.82.0"
+  spec.add_dependency "rubocop", "0.81.0"
 end
