@@ -37,9 +37,6 @@ Layout/DotPosition:
 Layout/LineLength:
   Enabled: false
 
-Layout/SpaceAroundMethodCallOperator:
-  Enabled: false
-
 Lint/EnsureReturn:
   Enabled: true
 
