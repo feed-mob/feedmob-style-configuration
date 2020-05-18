@@ -29,11 +29,11 @@ Gem::Specification.new do |spec|
 
   # MeowCop is a gem for RuboCop configuration, it focuses Lint
   # https://github.com/sider/meowcop
-  spec.add_dependency "meowcop", "~> 2.9.0"
+  spec.add_dependency "meowcop", "~> 2.8.0"
 
   # Regexp based customizable linter
   # https://github.com/sider/goodcheck
-  spec.add_dependency "goodcheck", "2.4.1"
+  spec.add_dependency "goodcheck", "0.3.0"
 
   # Querly is a query language and tool to find out method calls from Ruby programs
   # https://github.com/soutaro/querly
