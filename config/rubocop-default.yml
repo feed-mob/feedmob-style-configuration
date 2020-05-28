@@ -31,7 +31,7 @@ Style/MutableConstant:
   Enabled: true
 
 Style/StringHashKeys:
-  Enabled: false
+  Enabled: true
 
 Layout/DotPosition:
   Enabled: true
