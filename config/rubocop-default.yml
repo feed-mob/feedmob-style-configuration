@@ -30,6 +30,9 @@ Style/EmptyLiteral:
 Style/MutableConstant:
   Enabled: true
 
+Style/StringHashKeys:
+  Enabled: false
+
 Layout/DotPosition:
   Enabled: true
   EnforcedStyle: leading
