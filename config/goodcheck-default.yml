@@ -14,7 +14,6 @@
       - token: config.cache_store=:memory_store
       - token: config.cache_store = :redis_cache_store
       - token: config.cache_store=:redis_cache_store
-      case_sensitive: true
   glob:
     - "config/environments/production.rb"
     - "config/environments/stage.rb"
