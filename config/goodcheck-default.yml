@@ -6,3 +6,16 @@
     - "**/*.html.erb"
     - "**/.html"
   message: Don't write script tags on the page directly.
+
+- id: using_memory_store_or_redis_cache_store_only
+  not:
+    pattern:
+      - token: config.cache_store = :memory_store
+      - token: config.cache_store=:memory_store
+      - token: config.cache_store = :redis_cache_store
+      - token: config.cache_store=:redis_cache_store
+      case_sensitive: true
+  glob:
+    - "config/environments/production.rb"
+    - "config/environments/stage.rb"
+  message: Please using `:memory_store` or `redis_cache_store` for production or stating.
