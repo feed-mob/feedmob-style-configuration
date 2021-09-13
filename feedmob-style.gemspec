@@ -37,7 +37,7 @@ Gem::Specification.new do |spec|
 
   # Querly is a query language and tool to find out method calls from Ruby programs
   # https://github.com/soutaro/querly
-  spec.add_dependency "querly", "> 1.0.0"
+  spec.add_dependency "querly", "~> 1.2.0"
 
   spec.add_dependency "rubocop", "~> 0.82.0"
 end
