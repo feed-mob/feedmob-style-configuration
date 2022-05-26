@@ -23,13 +23,13 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-
+  spec.required_ruby_version = '> 2.5', '< 3.1'
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
 
   # MeowCop is a gem for RuboCop configuration, it focuses Lint
   # https://github.com/sider/meowcop
-  spec.add_dependency "meowcop", "~> 2.9.0"
+  spec.add_dependency "meowcop", "~> 3.2.0"
 
   # Regexp based customizable linter
   # https://github.com/sider/goodcheck
@@ -39,5 +39,5 @@ Gem::Specification.new do |spec|
   # https://github.com/soutaro/querly
   spec.add_dependency "querly", "~> 1.2.0"
 
-  spec.add_dependency "rubocop", "~> 0.82.0"
+  spec.add_dependency "rubocop", "~> 1.29.1"
 end
