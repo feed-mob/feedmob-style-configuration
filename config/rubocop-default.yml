@@ -3,6 +3,9 @@ inherit_gem:
   meowcop:
     - config/rubocop.yml
 
+AllCops:
+  NewCops: enable
+
 Style/AndOr:
   Enabled: true
 
