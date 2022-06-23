@@ -3,6 +3,9 @@ inherit_gem:
   meowcop:
     - config/rubocop.yml
 
+# Load rubocop-rails
+require: rubocop-rails
+
 AllCops:
   NewCops: enable
 

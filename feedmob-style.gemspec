@@ -40,4 +40,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "querly", "~> 1.3.0"
 
   spec.add_dependency "rubocop", "~> 1.30.1"
+  spec.add_dependency "rubocop-rails", "~> 2.15.0"
 end
