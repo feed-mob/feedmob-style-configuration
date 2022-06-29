@@ -3,6 +3,14 @@ inherit_gem:
   meowcop:
     - config/rubocop.yml
 
+# Load rubocop-rspec & rubocop-rails
+require:
+  - rubocop-rspec
+  - rubocop-rails
+
+AllCops:
+  NewCops: enable
+
 Style/AndOr:
   Enabled: true
 
