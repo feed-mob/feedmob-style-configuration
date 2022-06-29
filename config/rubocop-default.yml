@@ -9,7 +9,46 @@ require:
   - rubocop-rails
 
 AllCops:
-  NewCops: enable
+  NewCops: false
+
+### Lint
+
+Lint/RaiseException:
+  Enabled: false
+
+Lint/StructNewOverride:
+  Enabled: false
+
+Lint/DisjunctiveAssignmentInConstructor:
+  Enabled: false
+
+Lint/ErbNewArguments:
+  Enabled: false
+
+Lint/MissingCopEnableDirective:
+  Enabled: false
+
+Lint/Void:
+  Enabled:: false
+
+Lint/UselessTimes:
+  Enabled:: false
+
+Lint/UselessSetterCall:
+  Enabled: false
+
+Lint/UnderscorePrefixedVariableName:
+  Enabled: false
+
+### Metrics
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/BlockNesting:
+  Enabled: false
+
+### Style
 
 Style/AndOr:
   Enabled: true
@@ -38,36 +77,63 @@ Style/EmptyLiteral:
 Style/MutableConstant:
   Enabled: true
 
-Style/StringHashKeys:
-  Enabled: false
-
-Layout/DotPosition:
-  Enabled: true
-  EnforcedStyle: leading
-
-Layout/LineLength:
-  Enabled: false
-
-Layout/SpaceAroundMethodCallOperator:
-  Enabled: false
-
-Lint/EnsureReturn:
-  Enabled: true
-
-Lint/RescueException:
-  Enabled: true
-
-Lint/RaiseException:
-  Enabled: false
-
-Lint/StructNewOverride:
-  Enabled: false
-
-Lint/DuplicateMethods:
-  Enabled: true
+### Naming
 
 Naming/MethodName:
   Enabled: true
 
 Naming/ConstantName:
   Enabled: true
+
+### Rspec
+
+RSpec/EmptyLineAfterExample:
+  Enabled: false
+
+RSpec/EmptyLineAfterExampleGroup:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/Focus:
+  Enabled: false
+
+RSpec/ImplicitExpect:
+  Enabled: false
+
+RSpec/ImplicitSubject:
+  Enabled: false
+
+RSpec/ItBehavesLike:
+  Enabled: false
+
+RSpec/MessageChain:
+  Enabled: false
+
+RSpec/MessageExpectation:
+  Enabled: false
+
+RSpec/MessageSpies:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Enabled: false
+
+RSpec/NotToNot:
+  Enabled: false
+
+RSpec/PredicateMatcher:
+  Enabled: false
+
+RSpec/ReturnFromStub:
+  Enabled: false
+
+RSpec/SingleArgumentMessageChain:
+  Enabled: false
+
+RSpec/VariableName:
+  Enabled: false
+
+RSpec/VerifiedDoubleReference:
+  Enabled: false
