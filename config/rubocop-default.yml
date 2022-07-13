@@ -9,7 +9,7 @@ require:
   - rubocop-rails
 
 AllCops:
-  NewCops: false
+  NewCops: disable
 
 ### Lint
 
