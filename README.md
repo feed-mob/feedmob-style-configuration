@@ -29,7 +29,7 @@ $ bundle install
 Please execute:
 
 ```bash
-$ bundle update feedmib-stule
+$ bundle update feedmob-stule
 ```
 
 
