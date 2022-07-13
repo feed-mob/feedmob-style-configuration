@@ -24,6 +24,15 @@ And then execute:
 $ bundle install
 ```
 
+## Update
+
+Please execute:
+
+```bash
+$ bundle update feedmib-stule
+```
+
+
 ## Usage
 
 ### Sider.yml
