@@ -29,10 +29,10 @@ Lint/MissingCopEnableDirective:
   Enabled: false
 
 Lint/Void:
-  Enabled:: false
+  Enabled: false
 
 Lint/UselessTimes:
-  Enabled:: false
+  Enabled: false
 
 Lint/UselessSetterCall:
   Enabled: false
