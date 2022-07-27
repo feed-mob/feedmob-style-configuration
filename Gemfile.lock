@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    feedmob-style (0.3.3)
+    feedmob-style (0.3.4)
       goodcheck (= 3.1.0)
       meowcop (~> 3.2.0)
       psych (~> 3.3.2)
