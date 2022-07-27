@@ -44,4 +44,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rubocop", "~> 1.32.0"
   spec.add_dependency "rubocop-rails", "~> 2.15.2"
   spec.add_dependency "rubocop-rspec", "~> 2.12.1"
+  spec.add_dependency "psych", "~> 3.3.2"
 end
