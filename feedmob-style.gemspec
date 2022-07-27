@@ -24,6 +24,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.required_ruby_version = '>= 2.6.0'
+
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
 
@@ -39,7 +41,8 @@ Gem::Specification.new do |spec|
   # https://github.com/soutaro/querly
   spec.add_dependency "querly", "~> 1.3.0"
 
-  spec.add_dependency "rubocop", "~> 1.30.1"
-  spec.add_dependency "rubocop-rails", "~> 2.15.0"
-  spec.add_dependency "rubocop-rspec", "~> 2.11.1"
+  spec.add_dependency "rubocop", "~> 1.32.0"
+  spec.add_dependency "rubocop-rails", "~> 2.15.2"
+  spec.add_dependency "rubocop-rspec", "~> 2.12.1"
+  spec.add_dependency "psych", "~> 3.3.2"
 end

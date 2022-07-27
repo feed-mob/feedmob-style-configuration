@@ -137,3 +137,8 @@ RSpec/VariableName:
 
 RSpec/VerifiedDoubleReference:
   Enabled: false
+
+## Rails
+
+Rails/UniqueValidationWithoutIndex:
+  Enabled: false
